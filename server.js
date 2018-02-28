@@ -3,7 +3,7 @@ const hbs = require('hbs');
 const fs = require('fs');
 
 // Init app
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
 let app = express();
 
 // Setup view engine for templating
