@@ -3,6 +3,7 @@ const hbs = require('hbs');
 const fs = require('fs');
 
 // Init app
+const port = process.env.port || 3000;
 let app = express();
 
 // Setup view engine for templating
@@ -62,6 +63,6 @@ app.get('/bad', (req, res) => {
 })
 
 // Run app
-app.listen(3000, () => {
-    console.log('Server is up on port 3000');
+app.listen(port, () => {
+    console.log(`Server is up on port ${port}`);
 });
