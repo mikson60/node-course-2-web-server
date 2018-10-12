@@ -14,5 +14,5 @@ Runs on a NodeJS server set up with express.
 ## I want to try this
 The API is live on Heroku: https://young-stream-69308.herokuapp.com/
 
-## How to build
+## How to build 
 Clone the repository and run server.js using NodeJS.
